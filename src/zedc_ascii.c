@@ -15,7 +15,7 @@ extern "C" {
 #define COMPRESSION_METHOD_VAR "_HZC_COMPRESSION_METHOD"
 #define COMPRESSION_METHOD_SOFTWARE "software"
 #define MIN_THRESHOLD 1
-#define MAX_THRESHOLD 9999999
+#define MAX_THRESHOLD 999999
 
 #pragma convert("IBM-1047")
 static char *version_ebsidic = ZLIB_VERSION;
